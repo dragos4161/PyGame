@@ -165,6 +165,7 @@ def main():
 
         keys_pressed = pygame.key.get_pressed()
 
+
         move_yellow_spaceship(yellow, keys_pressed)
         move_red_spaceship(red, keys_pressed)
 
